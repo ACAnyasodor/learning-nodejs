@@ -1,0 +1,26 @@
+-- node js is an environment to run js outside browser
+-- 2009
+-- built on chrome v8 engine (every browser has an engine it uses to covert codes to machine codes
+NB To learn js, coding addict utube, js nuggets playlist
+1. download and install node js first
+2. node -v
+3. .exit
+4. node will use repl and cli
+	to open repl, tand proceed to write node codes
+5. to use a terminal, load file in a code editor and in the terminal cd into the folder that has your file and runn the code wit - node filename
+
+GLOBAL VARIABLES
+
+MODULES
+-- hidden/encapsulted code
+-- evry file in node is a module
+export: module.exports = var or {var1, var2, ...} for multiple variables
+import: require('./filename (no need for file ext') ./ or ../
+////
+export as u go
+module.exprts.varName = value or [val1,val2...] for multiple var
+or module.exports.exportName = varName
+////
+to export files, no need to use module.exports, then import
+when u import files, the require statement is sufficient to run the file (including any function calls)
+

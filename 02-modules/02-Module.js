@@ -1,0 +1,10 @@
+const sayHi = require('./utils')
+const name = require('./names') 
+info = require('./export')
+require('./page-export')
+
+//console.log(name)
+//sayHi(name.james)
+//sayHi(name.peter)
+//console.log(info.staff)
+//console.log(info)
