@@ -9,4 +9,8 @@ const deets={
 }
 
 
+<<<<<<< HEAD
 console.log(deets)
+=======
+console.log(deets)
+>>>>>>> 9cd4945c994c3eee4e98aaa54048197b2377bf98
