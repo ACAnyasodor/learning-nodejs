@@ -23,4 +23,16 @@ or module.exports.exportName = varName
 ////
 to export files, no need to use module.exports, then import
 when u import files, the require statement is sufficient to run the file (including any function calls)
+--to use a built in module and assign to a variable: varName  = require('module name')
+-- path.resolve(args) - to get the absolute path
+***to access a modules methodd. import module first then varName.method() or const {method}  = required('module name') (destructuring)
+filesystem(synchronous)
+import fs modules writefilesync and readfilesync
+writefilesync('path','content')
+varName = readfilesync('path','encoding'); consolelog(varName)
+writefilesync will overwrite but u can use an append flag to add writefilesync('path','content',{flag: 'a'})
+fs-async
+asyn need a call back function with two parameters, err and result, the file is save din the result variable
+const callback = (err,result) => if err log error retur, else log result
+read/writefile('path','encoding', callback function)
 
